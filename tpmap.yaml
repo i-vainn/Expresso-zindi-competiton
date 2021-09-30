@@ -1,0 +1,505 @@
+Data:490F=1GB,7d:
+    keyword: Data
+    F: 490
+    size: 1GB
+    duration: 7d
+"Data: 100 F=40MB,24H":
+    keyword: Data
+    F: 100
+    size: 49MB
+    duration: 24H
+Data:1000F=2GB,30d:
+    keyword: Data
+    F: 1000
+    size: 2GB
+    duration: 30d
+"Data: 200 F=100MB,24H":
+    keyword: Data
+    F: 200
+    size: 100MB
+    duration: 24H
+Data:200F=Unlimited,24H:
+    keyword: Data
+    F: 200
+    size: 999GB
+    duration: 24H
+Data:1000F=5GB,7d:
+    keyword: Data
+    F: 1000
+    size: 5GB
+    duration: 7d
+Data:500F=2GB,24H:
+    keyword: Data
+    F: 500
+    size: 2GB
+    duration: 24H
+Data:3000F=10GB,30d:
+    keyword: Data
+    F: 3000
+    size: 10GB
+    duration: 30d
+Data:300F=100MB,2d:
+    keyword: Data
+    F: 300
+    size: 100MB
+    duration: 2d
+Data:50F=30MB_24H:
+    keyword: Data
+    F: 50
+    size: 30MB
+    duration: 24H
+Data:150F=SPPackage1,24H:
+    keyword: Data
+    F: 150
+    size: SPPackage1
+    duration: 24H
+Data:1500F=3GB,30D:
+    keyword: Data
+    F: 1500
+    size: 3GB
+    duration: 30d
+Data:700F=1.5GB,7d:
+    keyword: Data
+    F: 700
+    size: 1.5GB
+    duration: 7d
+Data:30Go_V 30_Days:
+    keyword: Data
+    F: NaN
+    size: NaN
+    duration: 30d
+Data:1500F=SPPackage1,30d:
+    keyword: Data
+    F: 1500
+    size: SPPackage1
+    duration: 30d
+"Data: 490F=Night,00H-08H":
+    keyword: Data
+    F: 490
+    size: 999GB
+    duration: 8H
+Data:700F=SPPackage1,7d:
+    keyword: Data
+    F: 700
+    size: SPPackage1
+    duration: 7d
+"Data: 200F=1GB,24H":
+    keyword: Data
+    F: 200
+    size: 1GB
+    duration: 24H
+Data:1000F=700MB,7d:
+    keyword: Data
+    F: 1000F
+    size: 700MB
+    duration: 7d
+All-net 500F=2000F;5d:
+    keyword: All-net
+    F: 500
+    size: 2000
+    duration: 5d
+All-net 500F =2000F_AllNet_Unlimited:
+    keyword: All-net
+    F: 500
+    size: 2000
+    duration: 30d
+All-net 600F= 3000F ;5d:
+    keyword: All-net
+    F: 600
+    size: 3000
+    duration: 5d
+All-net 1000=5000;5d:
+    keyword: All-net
+    F: 1000
+    size: 5000
+    duration: 5d
+All-net 500F=1250F_AllNet_1250_Onnet;48h:
+    keyword: All-net
+    F: 500
+    size: 1250
+    duration: 48H
+All-net 1000F=(3000F On+3000F Off);5d:
+    keyword: All-net
+    F: 1000
+    size: 3000
+    duration: 5d
+All-net 300=600;2d:
+    keyword: All-net
+    F: 300
+    size: 600
+    duration: 2d
+All-net 5000= 20000off+20000on;30d:
+    keyword: All-net
+    F: 5000
+    size: 20000
+    duration: 30d
+All-net 500F=4000F ; 5d:
+    keyword: All-net
+    F: 500
+    size: 4000
+    duration: 5d
+All-net 500= 4000off+4000on;24H:
+    keyword: All-net
+    F: 500
+    size: 4000
+    duration: 24H
+On net 200F=Unlimited _call24H:
+    keyword: On net
+    F: 200
+    size: 9999
+    duration: 24H
+On-net 500=4000,10d:
+    keyword: On net
+    F: 500
+    size: 4000
+    duration: 10d
+On-net 500F_FNF;3d:
+    keyword: On net
+    F: 500
+    size: NAN
+    duration: 3d
+On-net 1000F=10MilF;10d:
+    keyword: On net
+    F: 1000
+    size: NAN
+    duration: 10d
+On-net 200F=60mn;1d:
+    keyword: On net
+    F: 200
+    size: NAN
+    duration: 1d
+On-net 300F=1800F;3d:
+    keyword: On net
+    F: 300
+    size: 1800
+    duration: 3d
+On-net 2000f_One_Month_100H; 30d:
+    keyword: On net
+    F: 2000
+    size: 9999
+    duration: 30d
+On net 200F= 3000F_10Mo ;24H:
+    keyword: On net
+    F: 200
+    size: 3000
+    duration: 24H
+Mixt 250F=Unlimited_call24H:
+    keyword: Mixt
+    F: 250
+    size: 9999
+    duration: 24H
+MIXT:500F= 2500F on net _2500F off net;2d:
+    keyword: Mixt
+    F: 2500
+    size: 2500
+    duration: 2d
+"MIXT: 200mnoff net _unl on net _5Go;30d":
+    keyword: Mixt
+    F: 200
+    size: NAN
+    duration: 30d
+"MIXT: 390F=04HOn-net_400SMS_400 Mo;4h\t":
+    keyword: Mixt
+    F: 390
+    size: 400
+    duration: 4H
+"MIXT: 590F=02H_On-net_200SMS_200 Mo;24h\t\t":
+    keyword: Mixt
+    F: 590
+    size: 200
+    duration: 24H
+"MIXT:1000F=4250 Off net _ 4250F On net _100Mo; 5d":
+    keyword: Mixt
+    F: 1000
+    size: 4250
+    duration: 5d
+"MIXT: 500F=75(SMS, ONNET, Mo)_1000FAllNet;24h\t\t":
+    keyword: Mixt
+    F: 500
+    size: 1000
+    duration: 24H
+"MIXT:10000F=10hAllnet_3Go_1h_Zone3;30d\t\t":
+    keyword: Mixt
+    F: 10000
+    size: 9999
+    duration: 30d
+"MIXT: 5000F=80Konnet_20Koffnet_250Mo;30d\t\t":
+    keyword: Mixt
+    F: 5000
+    size: 80000
+    duration: 30d
+"MIXT: 4900F= 10H on net_1,5Go ;30d":
+    keyword: Mixt
+    F: 4900
+    size: NAN
+    duration: 30d
+"Mixt : 500F=2500Fonnet_2500Foffnet ;5d":
+    keyword: Mixt
+    F: 500
+    size: 2500
+    duration: 5d
+Jokko_Daily:
+    keyword: Jokko
+IVR Echat_Daily_50F:
+    keyword: IVR
+VAS(IVR_Radio_Daily):
+    keyword: VAS
+Twter_U2opia_Daily:
+    keyword: Twter
+Twter_U2opia_Weekly:
+    keyword: Twter
+Data:DailyCycle_Pilot_1.5GB:
+    keyword: Data
+    F: NAN
+    size: 1.5GB
+200=Unlimited1Day:
+    keyword: unlimited
+    F: 200
+Jokko_promo:
+    keyword: Jokko
+Facebook_MIX_2D:
+    keyword: Facebook
+Pilot_Youth4_490:
+    keyword: Youth
+CVM_on-net bundle 500=5000:
+    keyword: On net
+    F: 500
+    size: 5000
+MROMO_TIMWES_RENEW:
+    keyword: MROMO
+Jokko_Monthly:
+    keyword: Jokko
+    duration: 30d
+MROMO_TIMWES_OneDAY:
+    keyword: MROMO
+    duration: 1d
+WIFI_Family_2MBPS:
+    keyword: wifi
+Yewouleen_PKG:
+    keyword: Yewouleen
+Twter_U2opia_Monthly:
+    keyword: Twter
+    duration: 30d
+YMGX 100=1 hour FNF, 24H/1 month:
+    keyword: YMGX
+    F: 100
+    duration: 30d
+New_YAKALMA_4_ALL:
+    keyword: YAKALMA
+Pilot_Youth1_290:
+    keyword: Youth
+"Internat: 1000F_Zone_1;24H\t\t":
+    keyword: Internat
+    F: 1000
+    duration: 24H
+SUPERMAGIK_5000:
+    keyword: SUPERMAGIK
+FNF2 ( JAPPANTE):
+    keyword: FNF2
+SUPERMAGIK_1000:
+    keyword: SUPERMAGIK
+DataPack_Incoming:
+    keyword: Incoming
+Jokko_Weekly:
+    keyword: Jokko
+    duration: 7d
+EVC_500=2000F:
+    keyword: EVC
+    F: 500
+    size: 2000
+WIFI_ Family _4MBPS:
+    keyword: wifi
+200F=10mnOnNetValid1H:
+    keyword: On net
+    F: 200
+Staff_CPE_Rent:
+    keyword: Staff
+FIFA_TS_daily:
+    keyword: FIFA
+    duration: 1d
+500=Unlimited3Day:
+    keyword: unlimited
+    F: 500
+    duration: 3d
+IVR Echat_Weekly_200F:
+    keyword: IVR
+    F: 200
+    duration: 7d
+TelmunCRBT_daily:
+    keyword: TelmunCRBT
+    duration: 1d
+VAS(IVR_Radio_Monthly):
+    keyword: VAS
+    duration: 30d
+"Internat: 1000F_Zone_3;24h\t\t":
+    keyword: Internat
+    F: 1000
+    duration: 24H
+"Internat: 2000F_Zone_2;24H\t\t":
+    keyword: Internat
+    F: 2000
+    duration: 24H
+Incoming_Bonus_woma:
+    keyword: Incoming
+EVC_100Mo:
+    keyword: EVC
+VAS(IVR_Radio_Weekly):
+    keyword: VAS
+    duration: 7d
+CVM_200f=400MB:
+    keyword: CVM
+    F: 200
+    size: 400MB
+FNF_Youth_ESN:
+    keyword: Youth
+WIFI_ Family _10MBPS:
+    keyword: wifi
+"305155009":
+    keyword: numeric
+Data_EVC_2Go24H:
+    keyword: Data
+    duration: 24H
+1000=Unlimited7Day:
+    keyword: unlimited
+    F: 1000
+    duration: 7d
+IVR Echat_Monthly_500F:
+    keyword: IVR
+    F: 500
+NEW_CLIR_PERMANENT_LIBERTE_MOBILE:
+    keyword: CLIR
+EVC_JOKKO30:
+    keyword: EVC
+    duration: 30d
+CVM_500f=2GB:
+    keyword: CVM
+    F: 500
+    size: 2GB
+EVC_Jokko_Weekly:
+    keyword: Jokko
+    duration: 7d
+CVM_100F_unlimited:
+    keyword: CVM
+    F: 100
+CVM_100f=200 MB:
+    keyword: CVM
+    F: 100
+    size: 200MB
+CVM_On-net 400f=2200F:
+    keyword: CVM
+    F: 400
+    size: 2200
+GPRS_3000Equal10GPORTAL:
+    keyword: GPRS
+EVC_700Mo:
+    keyword: EVC
+    duration: 30d
+pilot_offer6:
+    keyword: offer
+pack_chinguitel_24h:
+    keyword: chinguitel
+    duration: 24H
+CVM_On-net 1300f=12500:
+    keyword: CVM
+    F: 1300
+    size: 12500
+EVC_1Go:
+    keyword: EVC
+150=unlimited pilot auto:
+    keyword: unlimited
+    F: 150
+Data_Mifi_10Go_Monthly:
+    keyword: Data
+    duration: 30d
+EVC_MEGA10000F:
+    keyword: EVC
+    F: 10000
+EVC_4900=12000F:
+    keyword: EVC
+    F: 4900
+    size: 12000
+APANews_weekly:
+    keyword: APANews
+    duration: 7d
+pilot_offer7:
+    keyword: offer
+Data:New-GPRS_PKG_1500F:
+    keyword: Data
+    F: 1500
+GPRS_BKG_1000F MIFI:
+    keyword: GPRS
+    F: 1000
+Data:OneTime_Pilot_1.5GB:
+    keyword: Data
+    size: 1.5GB
+Data_Mifi_10Go:
+    keyword: Data
+FIFA_TS_weekly:
+    keyword: FIFA
+    duration: 7d
+FIFA_TS_monthly:
+    keyword: FIFA
+    duration: 30d
+GPRS_PKG_5GO_ILLIMITE:
+    keyword: GPRS
+Data_Mifi_20Go:
+    keyword: Data
+APANews_monthly:
+    keyword: APANews
+    duration: 30d
+200=unlimited pilot auto:
+    keyword: unlimited
+    F: 200
+NEW_CLIR_TEMPRESTRICTED_LIBERTE_MOBILE:
+    keyword: CLIR
+GPRS_5Go_7D_PORTAL:
+    keyword: GPRS
+    duration: 7d
+ESN_POSTPAID_CLASSIC_RENT:
+    keyword: ESN
+pilot_offer5:
+    keyword: offer
+Go-NetPro-4 Go:
+    keyword: NetPro
+pilot_offer4:
+    keyword: offer
+MegaChrono_3000F=12500F TOUS RESEAUX:
+    keyword: MegaChrono
+    F: 3000
+    size: 12500
+"301765007":
+    keyword: numeric
+SMS Max:
+    keyword: SMS
+CVM_150F_unlimited:
+    keyword: CVM
+    F: 150
+YMGX on-net 100=700F, 24H:
+    keyword: On net
+    F: 100
+    size: 700
+    duration: 24H
+CVM_100f=500 onNet:
+    keyword: CVM
+    F: 100
+    size: 500
+1500=Unlimited7Day:
+    keyword: unlimited
+    F: 1500
+    duration: 7d
+Postpaid FORFAIT 10H Package:
+    keyword: Postpaid
+    duration: 10d
+NEW_CLIR_TEMPALLOWED_LIBERTE_MOBILE:
+    keyword: CLIR
+Package3_Monthly:
+    keyword: Package3
+    duration: 30d
+EVC_1000=6000 F:
+    keyword: EVC
+    F: 1000
+    size: 6000
+EVC_PACK_2.2Go:
+    keyword: EVC
+NAN:
+    keyword: NAN
