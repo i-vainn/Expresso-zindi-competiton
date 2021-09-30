@@ -90,7 +90,7 @@ Data:700F=SPPackage1,7d:
     duration: 24H
 Data:1000F=700MB,7d:
     keyword: Data
-    F: 1000F
+    F: 1000
     size: 700MB
     duration: 7d
 All-net 500F=2000F;5d:
