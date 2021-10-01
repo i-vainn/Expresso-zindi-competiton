@@ -6,7 +6,7 @@ Data:490F=1GB,7d:
 "Data: 100 F=40MB,24H":
     keyword: Data
     F: 100
-    size: 49MB
+    size: 40MB
     duration: 24H
 Data:1000F=2GB,30d:
     keyword: Data
@@ -71,7 +71,7 @@ Data:30Go_V 30_Days:
 Data:1500F=SPPackage1,30d:
     keyword: Data
     F: 1500
-    size: SPPackage1
+    size: NaN
     duration: 30d
 "Data: 490F=Night,00H-08H":
     keyword: Data
@@ -81,7 +81,7 @@ Data:1500F=SPPackage1,30d:
 Data:700F=SPPackage1,7d:
     keyword: Data
     F: 700
-    size: SPPackage1
+    size: NaN
     duration: 7d
 "Data: 200F=1GB,24H":
     keyword: Data
