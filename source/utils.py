@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import yaml
+import itertools
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -55,7 +56,7 @@ def handle_nans(*tables):
             for sub in tables:
                 sub[col + '_isna'] = sub[col].isna().astype('int')
             
-            filler = np.median([sub[col][sub[col].notna()] for sub in tables])
+            filler = np.median(list(itertools.chain.from_iterable([sub[col][sub[col].notna()] for sub in tables])))
 
         for sub in tables:
             sub[col] = sub[col].fillna(filler)
