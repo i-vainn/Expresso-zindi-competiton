@@ -131,3 +131,4 @@ dmypy.json
 # Competiton data (too big)
 data/
 
+*catboost_info
